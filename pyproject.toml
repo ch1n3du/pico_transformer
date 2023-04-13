@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pico-transformer"
+version = "0.1.0"
+description = ""
+authors = ["Ch1n3du <danielonyesoh@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pico_transformer"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyter = "^1.0.0"
+ipykernel = "^6.22.0"
+torch = "^2.0.0"
+numpy = "^1.24.2"
+matplotlib = "^3.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
